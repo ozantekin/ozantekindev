@@ -12,90 +12,78 @@ cursor: pointer;
     z-index: 1000;
     top: 25%;
     left: 0;
-    text-align: center;
-  
-  
+    text-align: center; 
 }
 .main{
     padding: 1rem;
    font-size: 1rem;
 }
-
 img{
     width: 9rem;
     height: 9rem;
-    border-radius: 50%;
-   
-    
-    
+    border-radius: 50%;   
 }
-
 h1{
     text-transform: uppercase;
     color: #212529;
     padding: 1rem;
 }
-
 h1 span{
     color:#495057 ;
 }
-
 p{
     text-transform: uppercase;
-    color: #6c757d;
-   
+    color: #6c757d;  
 }
-
-.email{
-    color: #495057;
+.email{   
     margin-top: 0.5rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 .email a{
     text-decoration: none;
     color:#adb5bd ;
-    text-transform: lowercase;
-  
+    text-transform: lowercase; 
 }
 .email a:hover{
     color: #212529 ;
     text-decoration:underline;
     font-weight: bold;
+    font-size: 0.8rem;
     transition: 0.5s;
 }
-
 .social-items{
     padding: 1rem;
     font-size: 1.5rem;
 }
-
 .social-items a{
     margin-right: 1rem;
     text-decoration: none;
     color: #6c757d;
-
     font-weight: bold;
 }
-
 .social-items a:hover{
     color: #212529;
     transition: 0.5s;
     
 }
-.under:hover{
+.social-items a:hover:last-child{
     text-decoration: underline;
+  
+    
 }
-
 .super a{
 color:#adb5bd  ;
 text-decoration: none;
 font-size: 0.8rem;
 }
-
 .super a:hover{
     color:#212529 ;
     font-weight: bold;
+    font-size: 0.9rem;
     text-decoration: underline;
     transition: 0.5s;
 }
+
+
+
