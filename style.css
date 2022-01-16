@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+cursor: pointer;
+}
+.container{
+    width: 100%;
+    height: 50%;
+    position: fixed;
+    z-index: 1000;
+    top: 25%;
+    left: 0;
+    text-align: center;
+  
+  
+}
+.main{
+    padding: 1rem;
+   font-size: 1rem;
+}
+
+img{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    
+}
+
+h1{
+    text-transform: uppercase;
+    color: #212529;
+    padding: 1rem;
+}
+
+h1 span{
+    color:#495057 ;
+}
+
+p{
+    text-transform: uppercase;
+    color: #6c757d;
+   
+}
+
+.email{
+    color: #495057;
+    font-size: 0.85rem;
+}
+
+.email a{
+    text-decoration: none;
+    color:#adb5bd ;
+    text-transform: lowercase;
+  
+}
+.email a:hover{
+    color: #212529 ;
+    text-decoration:underline;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.social-items{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.social-items a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #6c757d;
+
+    font-weight: bold;
+}
+
+.social-items a:hover{
+    color: #212529;
+    transition: 0.5s;
+    
+}
+.under:hover{
+    text-decoration: underline;
+}
+
+.super a{
+color:#adb5bd  ;
+text-decoration: none;
+font-size: 0.8rem;
+}
+
+.super a:hover{
+    color:#212529 ;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.5s;
+}
