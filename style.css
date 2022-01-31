@@ -47,14 +47,16 @@ p{
 .email a{
  
     font-size: 0.8rem;
-    color:#adb5bd ;
+    color:#adb5bd  ;
     text-transform: lowercase; 
 }
-.email a:hover{
-    color: #212529 ;
-    text-decoration:underline;
-    font-weight: bold;
-    transition: 0.5s;
+.email span{
+    color: #6c757d;
+    font-weight: bolder;
+}
+.email a:hover span{
+  
+    color: #212529;
 }
 .social-items{
     padding: 1rem;
