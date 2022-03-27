@@ -6,24 +6,6 @@ font-family: 'Poppins', sans-serif;
 
 }
 
-nav .buy-coffee{
-    position: absolute;
-    right: 1rem;
-    bottom: 1rem;
-    font-size: 0.8rem;
-    
-}
-
-.buy-coffee a{
-     color: #FF5757;
-  
-}
-
-.buy-coffee:hover a{
-    text-decoration: underline;
- 
-}
-
 .container{
     width: 100%;
     position: fixed;
