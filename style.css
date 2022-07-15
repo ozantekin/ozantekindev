@@ -1,115 +1,116 @@
-*{
-    margin: 0;
-    padding: 0;
-box-sizing: border-box;
-font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
-}
-
-.container{
-    width: 100%;
-    position: fixed;
-    z-index: 1000;
-    top: 15%;
-    left: 0;
-    text-align: center; 
+:root {
+  --bg-gray: #eee;
+  --border-gray: #aaa;
 }
 
-
-a{
-    text-decoration: none;
-}
-.main{
-    padding: 1rem;
-   font-size: 1rem;
-}
-img{
-    width: 9rem;
-    height: 9rem;
-    border-radius: 50%;   
-}
-h1{
-    text-transform: uppercase;
-    color: #212529;
-    padding: 1rem;
-    cursor: default;
-}
-h1 span{
-    color:#495057 ;
-}
-p{
-    text-transform: uppercase;
-    color: #6c757d;  
-    cursor: default;
-}
-.email{   
-    margin-top: 0.5rem;
-    font-size: 0.7rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
-.email a{
- 
-    font-size: 0.8rem;
-    color:#adb5bd  ;
-    text-transform: lowercase; 
-}
-.email span{
-    color: #6c757d;
-    font-weight: bolder;
-}
-.email a:hover span{
-  
-    color: #212529;
+body {
+  height: 100vh;
+  color: #333;
 }
 
-.social-items{
-    padding: 1rem;
-    font-size: 1.5rem;
-}
-.social-items a{
-    margin-right: 1rem;
-  
-    color: #6c757d;
-    font-weight: bold;
-}
-.social-items a:hover{
-    color: #212529;
-    transition: 0.5s;
-    
-}
-.social-items a:hover:last-child{
-    text-decoration: underline;
-  
-    
-}
-.news-item a{
-color:#adb5bd  ;
-text-decoration: none;
-font-size: 0.85rem;
-
-}
-.news-item a:hover{
-    color:#212529 ;
-    text-decoration: underline;
-    font-weight: bold;
-   
-   
-}
-.donation{
-    font-size: 0.8rem;
-    padding: 1rem;
-}
-.donation a{
-    color: #6c757d;
-   text-decoration: underline;
-   
-}
-.donation a:hover{
-   
-    font-weight: bold;
-    color: #212529;
+header {
+  background-color: var(--bg-gray);
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
-.news{
-    margin-top: -1rem;
+header nav {
+  border-bottom: 1px solid var(--border-gray);
+  padding: 1rem;
+}
+
+header nav h2 {
+  letter-spacing: 2px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+main article {
+  text-align: center;
+}
+
+main article p {
+  margin: 0.3rem 0;
+}
+
+main article p a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid var(--border-gray);
+  transition: color 0.5s ease;
+}
+
+main article p span {
+  font-size: 0.9rem;
+  color: var(--border-gray);
+}
+
+main article p a:hover {
+  color: var(--border-gray);
+}
+
+main article ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.7rem;
+  list-style-type: none;
+}
+
+main article ul li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.5s ease;
+}
+
+main article ul li:hover a {
+  color: var(--border-gray);
+}
+
+.newsletter a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.2rem;
+  display: block;
+  transition: color 0.5s ease;
+}
+
+.newsletter:hover a {
+  color: var(--border-gray);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: var(--bg-gray);
+}
+
+footer nav {
+  padding: 0.5rem;
+  border-top: 1px solid var(--border-gray);
+  text-align: center;
+}
+
+footer nav small {
+  font-size: 0.6rem;
+  letter-spacing: 1px;
 }
