@@ -15,6 +15,7 @@
 body {
   height: 100vh;
   color: #333;
+  overflow: hidden;
 }
 
 .container {
