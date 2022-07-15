@@ -34,7 +34,7 @@ header nav {
 }
 
 header nav h2 {
-  letter-spacing: 2px;
+  letter-spacing: 5px;
 }
 
 main {
@@ -117,5 +117,5 @@ footer nav {
 footer nav small {
   font-size: 0.6rem;
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 2.5px;
 }
