@@ -17,6 +17,10 @@ body {
   color: #333;
 }
 
+.container {
+  position: relative;
+}
+
 header {
   background-color: var(--bg-gray);
   position: fixed;
