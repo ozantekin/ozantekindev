@@ -13,7 +13,6 @@
 }
 
 body {
-  height: 100vh;
   color: #333;
   overflow: hidden;
 }
@@ -113,10 +112,10 @@ footer {
 footer nav {
   padding: 0.5rem;
   border-top: 1px solid var(--border-gray);
-  text-align: center;
 }
 
 footer nav small {
   font-size: 0.6rem;
+  font-weight: bold;
   letter-spacing: 1px;
 }
