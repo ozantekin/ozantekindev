@@ -16,6 +16,4 @@ theme.onclick = () => {
 if (localStorage.getItem('theme') != '') {
   document.body.classList.add(localStorage.getItem('theme'))
   theme.classList = localStorage.getItem('icon')
-} else {
-  theme.classList = localStorage.getItem('icon')
 }
