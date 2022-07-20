@@ -8,12 +8,12 @@ theme.addEventListener('click', () => {
   } else {
     theme.classList = 'fa-solid fa-cloud-rain fa-2x'
   }
+
+  localStorage.setItem('theme', document.body.classList)
+  localStorage.setItem('icon', theme.classList)
+
+  if (localStorage.getItem('theme') != '') {
+    document.body.classList.add(localStorage.getItem('theme'))
+    theme.classList = localStorage.getItem('icon')
+  }
 })
-
-localStorage.setItem('theme', document.body.classList)
-localStorage.setItem('icon', theme.classList)
-
-if (localStorage.getItem('theme') != '') {
-  document.body.classList.add(localStorage.getItem('theme'))
-  theme.classList = localStorage.getItem('icon')
-}
