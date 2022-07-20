@@ -13,7 +13,7 @@ theme.addEventListener('click', () => {
   localStorage.setItem('icon', theme.classList)
 })
 
-if (localStorage.getItem('theme') != '') {
+if (localStorage.getItem('theme')) {
   document.body.classList.add(localStorage.getItem('theme'))
   theme.classList = localStorage.getItem('icon')
 }
