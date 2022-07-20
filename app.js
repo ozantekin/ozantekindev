@@ -11,9 +11,9 @@ theme.addEventListener('click', () => {
 
   localStorage.setItem('theme', document.body.classList)
   localStorage.setItem('icon', theme.classList)
-
-  if (localStorage.getItem('theme') != '') {
-    document.body.classList.add(localStorage.getItem('theme'))
-    theme.classList = localStorage.getItem('icon')
-  }
 })
+
+if (localStorage.getItem('theme') != '') {
+  document.body.classList.add(localStorage.getItem('theme'))
+  theme.classList = localStorage.getItem('icon')
+}
