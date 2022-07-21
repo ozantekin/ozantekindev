@@ -4,9 +4,9 @@ theme.addEventListener('click', () => {
   document.body.classList.toggle('dark-theme')
 
   if (document.body.classList.contains('dark-theme')) {
-    theme.classList = 'fa-solid fa-sun fa-2x'
+    theme.classList = 'fa-solid fa-lightbulb-on fa-2x'
   } else {
-    theme.classList = 'fa-solid fa-cloud-rain fa-2x'
+    theme.classList = 'fa-solid fa-lightbulb fa-2x'
   }
 
   localStorage.setItem('theme', document.body.classList)
